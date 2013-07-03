@@ -1,4 +1,10 @@
 *.pyc
+*.pyo
+*.egg-info
+
+/MANIFEST
+/dist
+
 .*.sw?
+
 /reclass-config.yml
-/reclass.py

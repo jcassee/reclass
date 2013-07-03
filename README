@@ -33,16 +33,13 @@ about integration of reclass with these tools.
 
 Installation
 ~~~~~~~~~~~~
-Before you can use reclass, you need to run make to configure the scripts to
-your system. Right now, this only involves setting the full path to the
-Python interpreter.
+Before you can use reclass, you need to run pip to install all dependecies
+and the reclass command:
 
-  make
+  pip install -e .
 
-If your Python interpreter is not /usr/bin/python and is also not in your
-$PATH, then you need to pass that to make, e.g.
-
-  make PYTHON=/opt/local/bin/python
+Previous versions of reclass used make to set the Python path. This step has
+been removed in favour of using /usr/bin/env to find the Python binary.
 
 reclass concepts
 ~~~~~~~~~~~~~~~~

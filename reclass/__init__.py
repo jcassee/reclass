@@ -7,6 +7,14 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+__description__ = 'classify nodes based on an external data source'
+__version__ = '1.0'
+__author__ = 'martin f. krafft'
+__author_email__ = 'madduck@madduck.net'
+__copyright__ = 'Copyright © 2007–13 ' + __author__
+__license__ = 'Artistic Licence 2.0'
+
+
 from output import OutputLoader
 from storage import StorageBackendLoader
 
